@@ -13,7 +13,7 @@ class CommandsTableSeeder extends Seeder
     public function run()
     {
         // Truncate the table before be execute seed command
-        Command::truncate();
+//        Command::truncate();
 
         // Fill in the `commands` table with preset values
         $command                = new Command;
